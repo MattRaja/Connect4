@@ -1,0 +1,20 @@
+﻿@page
+@model WebApp.Pages.Game.ConfirmationPageModel
+<div class="container h-100">
+    <div class="row align-items-center h-100">
+        <div class="col-6 mx-auto bg-darkblue">
+            <div class="jumbotron bg-darkblue lead my-12 display-6">
+<div class="text-danger bold-red-text pb-4">
+    The name "@Model.SaveName" is already in use. <br/>
+    Would you like to overwrite the save?
+</div>
+ <form method="post">
+     <div class="form-group">
+         <input type="submit" asp-route-overWriteBool="true" asp-route-gameOver="@Model.GameOver" asp-route-saveName="@Model.SaveName" value="Yes" class="btn btn-secondary"/>
+         <input type="submit" asp-route-overWriteBool="false" asp-route-gameOver="@Model.GameOver" asp-route-saveName="@Model.SaveName" value="No" class="btn btn-secondary"/>
+     </div>
+</form>
+ </div>
+ </div>
+ </div>
+ </div>

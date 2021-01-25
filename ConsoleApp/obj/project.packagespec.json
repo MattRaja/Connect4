@@ -1,0 +1,66 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\NZXT\\RiderProjects\\icd0008-2019f\\ConnectF\\ConsoleApp\\ConsoleApp.csproj",
+    "projectName": "ConsoleApp",
+    "projectPath": "C:\\Users\\NZXT\\RiderProjects\\icd0008-2019f\\ConnectF\\ConsoleApp\\ConsoleApp.csproj",
+    "outputPath": "C:\\Users\\NZXT\\RiderProjects\\icd0008-2019f\\ConnectF\\ConsoleApp\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {
+          "C:\\Users\\NZXT\\RiderProjects\\icd0008-2019f\\ConnectF\\ConsoleUI\\ConsoleUI.csproj": {
+            "projectPath": "C:\\Users\\NZXT\\RiderProjects\\icd0008-2019f\\ConnectF\\ConsoleUI\\ConsoleUI.csproj"
+          },
+          "C:\\Users\\NZXT\\RiderProjects\\icd0008-2019f\\ConnectF\\DAL\\DAL.csproj": {
+            "projectPath": "C:\\Users\\NZXT\\RiderProjects\\icd0008-2019f\\ConnectF\\DAL\\DAL.csproj"
+          },
+          "C:\\Users\\NZXT\\RiderProjects\\icd0008-2019f\\ConnectF\\GameEngine\\GameEngine.csproj": {
+            "projectPath": "C:\\Users\\NZXT\\RiderProjects\\icd0008-2019f\\ConnectF\\GameEngine\\GameEngine.csproj"
+          },
+          "C:\\Users\\NZXT\\RiderProjects\\icd0008-2019f\\ConnectF\\MenuSystem\\MenuSystem.csproj": {
+            "projectPath": "C:\\Users\\NZXT\\RiderProjects\\icd0008-2019f\\ConnectF\\MenuSystem\\MenuSystem.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "dependencies": {
+        "Microsoft.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[3.1.0, )"
+        },
+        "Microsoft.EntityFrameworkCore.Design": {
+          "target": "Package",
+          "version": "[3.1.0, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

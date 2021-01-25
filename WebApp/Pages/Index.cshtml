@@ -1,0 +1,105 @@
+﻿@page
+@model IndexModel
+<body style="background: lightskyblue" class="page-holder bg-cover">
+
+@{
+    ViewData["Title"] = "Start a new game";
+}
+<div class="container h-100">
+    <div class="row align-items-center h-100">
+        <div class="col-6 mx-auto bg-darkblue">
+            <div class="jumbotron bg-darkblue lead my-12 display-6">
+                <table class="menu-table">
+                        <form method="post">
+                    <tr>
+                        <h1>Connect 4</h1>
+                    </tr>
+                    <tr>
+                            <div asp-validation-summary="ModelOnly" class="text-danger bold-red-text"></div>
+                            <div class="form-group">
+                                <td>
+                                    <label asp-for="GameSettingsDb.BoardHeight" class="control-label"></label>
+                                </td>
+                                <td>
+                                    <input asp-for="GameSettingsDb.BoardHeight" class="form-control" value="@GameEngine.Game.MinBoardHeight"/>
+                                </td>
+                                <span asp-validation-for="GameSettingsDb.BoardHeight" class="text-danger bold-red-text"></span>
+                            </div>
+                    </tr>
+                    <tr>
+
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <div class="form-group">
+                                <td>
+                                    <label asp-for="GameSettingsDb.BoardWidth" class="control-label"></label>
+                                </td>
+                                <td>
+                                    <input asp-for="GameSettingsDb.BoardWidth" class="form-control" value="@GameEngine.Game.MinBoardWidth"/>
+                                </td>
+                                <span asp-validation-for="GameSettingsDb.BoardWidth" class="text-danger bold-red-text"></span>
+                            </div>
+                    </tr>
+                    <tr>
+
+                        <div>
+                            <td>
+                                Player O:
+                            </td>
+                        </div>
+                        <td>
+                            <select name="PlayerO">
+                                <option value="human">Human</option>
+                                <option value="computer">Computer</option>
+                            </select>
+                        </td>
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <div class="form-group">
+                                <td>
+                                    <label asp-for="GameSettingsDb.Player1Name" class="control-label"></label>
+                                </td>
+                                <td style="padding-left: 7px">
+                                    <input asp-for="GameSettingsDb.Player1Name" class="form-control" value="Player 1"/>
+                                </td>
+                                <span asp-validation-for="GameSettingsDb.Player1Name" class="text-danger bold-red-text"></span>
+                            </div>
+                    </tr>
+                    <tr>
+                        <div>
+                            <td>
+                                Player X:
+                            </td>
+                        </div>
+                        <td>
+                            <select name="PlayerX">
+                                <option value="human">Human</option>
+                                <option value="computer">Computer</option>
+                            </select>
+                        </td>
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <div class="form-group">
+                                <td>
+                                    <label asp-for="GameSettingsDb.Player2Name" class="control-label"></label>
+                                </td>
+                                <td style="padding-left: 7px">
+                                    <input asp-for="GameSettingsDb.Player2Name" class="form-control" value="Player 2"/>
+                                </td>
+                                <span asp-validation-for="GameSettingsDb.Player2Name" class="text-danger bold-red-text"></span>
+                            </div>
+                    </tr>
+                    <tr>
+                        <div class="form-group">
+                            <td><input type="submit" value="Start Game" class="btn btn-primary"/></td>
+                            <td><input type="submit" asp-for="GameSettingsDb.ToDoButton" value="Load Game" class="btn btn-primary"/></td>
+                        </div>
+                    </tr>
+                    </form>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+@section Scripts {
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}

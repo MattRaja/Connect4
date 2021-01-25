@@ -1,0 +1,15 @@
+C:\Users\NZXT\RiderProjects\icd0008-2019f\ConnectF\GameEngine\bin\Debug\netstandard2.1\GameEngine.deps.json
+C:\Users\NZXT\RiderProjects\icd0008-2019f\ConnectF\GameEngine\bin\Debug\netstandard2.1\GameEngine.dll
+C:\Users\NZXT\RiderProjects\icd0008-2019f\ConnectF\GameEngine\bin\Debug\netstandard2.1\GameEngine.pdb
+C:\Users\NZXT\RiderProjects\icd0008-2019f\ConnectF\GameEngine\bin\Debug\netstandard2.1\DAL.dll
+C:\Users\NZXT\RiderProjects\icd0008-2019f\ConnectF\GameEngine\bin\Debug\netstandard2.1\Domain.dll
+C:\Users\NZXT\RiderProjects\icd0008-2019f\ConnectF\GameEngine\bin\Debug\netstandard2.1\MenuSystem.dll
+C:\Users\NZXT\RiderProjects\icd0008-2019f\ConnectF\GameEngine\bin\Debug\netstandard2.1\MenuSystem.pdb
+C:\Users\NZXT\RiderProjects\icd0008-2019f\ConnectF\GameEngine\bin\Debug\netstandard2.1\DAL.pdb
+C:\Users\NZXT\RiderProjects\icd0008-2019f\ConnectF\GameEngine\bin\Debug\netstandard2.1\Domain.pdb
+C:\Users\NZXT\RiderProjects\icd0008-2019f\ConnectF\GameEngine\obj\Debug\netstandard2.1\GameEngine.csprojAssemblyReference.cache
+C:\Users\NZXT\RiderProjects\icd0008-2019f\ConnectF\GameEngine\obj\Debug\netstandard2.1\GameEngine.AssemblyInfoInputs.cache
+C:\Users\NZXT\RiderProjects\icd0008-2019f\ConnectF\GameEngine\obj\Debug\netstandard2.1\GameEngine.AssemblyInfo.cs
+C:\Users\NZXT\RiderProjects\icd0008-2019f\ConnectF\GameEngine\obj\Debug\netstandard2.1\GameEngine.csproj.CopyComplete
+C:\Users\NZXT\RiderProjects\icd0008-2019f\ConnectF\GameEngine\obj\Debug\netstandard2.1\GameEngine.dll
+C:\Users\NZXT\RiderProjects\icd0008-2019f\ConnectF\GameEngine\obj\Debug\netstandard2.1\GameEngine.pdb

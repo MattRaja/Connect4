@@ -1,0 +1,47 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\NZXT\\RiderProjects\\icd0008-2019f\\ConnectF\\MenuSystem\\MenuSystem.csproj",
+    "projectName": "MenuSystem",
+    "projectPath": "C:\\Users\\NZXT\\RiderProjects\\icd0008-2019f\\ConnectF\\MenuSystem\\MenuSystem.csproj",
+    "outputPath": "C:\\Users\\NZXT\\RiderProjects\\icd0008-2019f\\ConnectF\\MenuSystem\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netstandard2.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "projectReferences": {
+          "C:\\Users\\NZXT\\RiderProjects\\icd0008-2019f\\ConnectF\\DAL\\DAL.csproj": {
+            "projectPath": "C:\\Users\\NZXT\\RiderProjects\\icd0008-2019f\\ConnectF\\DAL\\DAL.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netstandard2.1": {
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
